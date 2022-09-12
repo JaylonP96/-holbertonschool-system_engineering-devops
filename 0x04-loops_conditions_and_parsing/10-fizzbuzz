@@ -2,8 +2,7 @@
 #displaying different fizzys
 
 i=1
-while [ $i -lt 101 ]
-do
+while ((i<=100));do
 	if ((i%15==0))
 	then
 		echo "FizzBuzz"
