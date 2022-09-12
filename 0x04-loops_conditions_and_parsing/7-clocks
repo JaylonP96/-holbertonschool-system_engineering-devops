@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# shows time for 12 hours and 59 mins
+#shows time for 12 hours and 59 mins
 
 HOURS=0
 while [ $HOURS -lt 13 ]
