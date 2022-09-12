@@ -1,6 +1,6 @@
 #!/bin/env bash
 # displays content of the current working directory.
-LIST $(ls)
+LIST=$(ls)
 for i in $LIST
 do
     echo "$i" | cut -d'-' -f2
